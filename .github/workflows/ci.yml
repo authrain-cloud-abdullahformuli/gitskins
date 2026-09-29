@@ -1,0 +1,24 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate Markdown and Configs
+        run: |
+          echo "Validating repository structure..."
+          test -f README.md
+          test -f LICENSE
+          test -f MAINTAINERS.md
+          test -f CITATION.cff
+          test -f AGENTS.md
+          test -f package.json
+          echo "All required files verified successfully!"

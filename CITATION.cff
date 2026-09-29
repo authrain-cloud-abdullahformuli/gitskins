@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: "Formuli"
+    given-names: "Abdullah"
+    email: "authrainmedia@gmail.com"
+    affiliation: "https://github.com/authrain-cloud-abdullahformuli"
+title: "GitSkins: Animated GitHub Profile Visual System & Interactive Contribution Games"
+version: 1.0.0
+date-released: 2026-09-28
+url: "https://github.com/authrain-cloud-abdullahformuli/gitskins"
+license: MIT

@@ -1,0 +1,21 @@
+{
+  "name": "gitskins",
+  "version": "1.0.0",
+  "description": "Animated GitHub profile visual system and interactive contribution games.",
+  "author": "Abdullah Formuli <authrainmedia@gmail.com> (https://github.com/authrain-cloud-abdullahformuli)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/authrain-cloud-abdullahformuli/gitskins.git"
+  },
+  "homepage": "https://github.com/authrain-cloud-abdullahformuli/gitskins#readme",
+  "license": "MIT",
+  "keywords": [
+    "github-profile",
+    "gitskins",
+    "svg",
+    "animation",
+    "contribution-graph",
+    "space-shooter",
+    "developer-portfolio"
+  ]
+}
